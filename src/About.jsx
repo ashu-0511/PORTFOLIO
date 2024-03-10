@@ -13,7 +13,7 @@ function About() {
             <div>
                 <section className="firstsection1">
                     <div className="leftsection">
-                        <div><h1>I'm Ashutosh Narula</h1></div>
+                        <div><h2>I'm Ashutosh Narula</h2></div>
                         A Dedicated front-end developer, passionate in leveraging cutting-edge technologies to craft user friendly and engaging
                         web solutions.
                     </div>
