@@ -1,0 +1,13 @@
+.bar {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bar img {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}

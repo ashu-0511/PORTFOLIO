@@ -1,0 +1,49 @@
+.formsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0px;
+    width: 100%;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 500px;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form input {
+    width: 100%;
+}
+
+.btn {
+    background-color: aliceblue;
+    width: 30%;
+    padding: 10px;
+}
+
+.input1 {
+    font-size: 20px;
+}
+
+.input2 {
+    font-size: 20px;
+}
+
+.input3 {
+    font-size: 30px;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

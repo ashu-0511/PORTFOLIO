@@ -1,0 +1,31 @@
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0px;
+}
+
+.firstsection>div {
+    width: 30%;
+
+}
+
+.leftsection {
+    margin: 70px 0px;
+    font-size: 2.5rem;
+}
+
+.rightsection {
+    /* background-color: pink; */
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
