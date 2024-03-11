@@ -14,6 +14,7 @@ function Project() {
                 <div className="content">
                     <h2>Vistara clone</h2>
                     <p>Techstack: HTML ,CSS, Javascript, ReactJS</p>
+                    <button className="btn1">  View Project</button>
                 </div>
             </div>
             <hr />
@@ -22,6 +23,7 @@ function Project() {
                 <div className="content">
                     <h2>Samsung clone</h2>
                     <p>Techstack: HTML ,CSS ,Javascript, Bootstrap</p>
+                    <button className="btn1"> <a href="https://ashu-0511.github.io/samsung/" target="_blank" rel='noreferrer' >View Project</a></button>
                 </div>
             </div>
         </>

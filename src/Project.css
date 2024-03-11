@@ -36,3 +36,20 @@ hr {
 h1 {
     text-decoration: underline;
 }
+
+
+.btn1 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.btn1 {
+    background-color: rgb(18, 18, 62);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 12px;
+}
