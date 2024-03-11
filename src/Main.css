@@ -29,3 +29,58 @@
 #element {
     color: rgb(170, 107, 228);
 }
+
+.buttons {
+    padding: 50px 0px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons .btn {
+    background-color: rgb(18, 18, 62);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.logo {
+    margin-right: 100px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    .firstsection {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        width: 85%;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .firstsection .leftsection {
+        width: 85%;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+
+        flex-direction: column;
+    }
+}

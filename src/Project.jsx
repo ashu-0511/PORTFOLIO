@@ -13,7 +13,7 @@ function Project() {
                 <img src={vistara} alt="none" />
                 <div className="content">
                     <h2>Vistara clone</h2>
-                    <p>Techstack: HTML CSS Javascript ReactJS</p>
+                    <p>Techstack: HTML ,CSS, Javascript, ReactJS</p>
                 </div>
             </div>
             <hr />
@@ -21,7 +21,7 @@ function Project() {
                 <img src={samsung} alt="none" />
                 <div className="content">
                     <h2>Samsung clone</h2>
-                    <p>Techstack: HTML CSS Javascript Bootstrap</p>
+                    <p>Techstack: HTML ,CSS ,Javascript, Bootstrap</p>
                 </div>
             </div>
         </>
