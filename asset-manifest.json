@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/PORTFOLIO/static/css/main.beb4dd35.css",
-    "main.js": "/PORTFOLIO/static/js/main.6bd95f47.js",
+    "main.css": "/PORTFOLIO/static/css/main.284a5fc6.css",
+    "main.js": "/PORTFOLIO/static/js/main.7d6a7857.js",
     "static/media/Ashutosh_resume.pdf": "/PORTFOLIO/static/media/Ashutosh_resume.2f2a65a9c99f7240db20.pdf",
+    "static/media/vistara.png": "/PORTFOLIO/static/media/vistara.b6172961ee36e13c8521.png",
     "static/media/samsung.png": "/PORTFOLIO/static/media/samsung.3acd5931d774501eb02d.png",
-    "static/media/vistara.png": "/PORTFOLIO/static/media/vistara.cf8a98e0dd2f7bdd307f.png",
     "static/media/react.png": "/PORTFOLIO/static/media/react.2f2532db663fd5ec5f95.png",
-    "static/media/bootstrap.png": "/PORTFOLIO/static/media/bootstrap.95f1e0a0a8bd32345509.png",
+    "static/media/bootstrap.png": "/PORTFOLIO/static/media/bootstrap.4701fa589bcef65a1566.png",
     "static/media/html.png": "/PORTFOLIO/static/media/html.fb627e76c05a9a6c7444.png",
     "static/media/css.png": "/PORTFOLIO/static/media/css.ea63097553654f07d95c.png",
     "static/media/js.png": "/PORTFOLIO/static/media/js.166865dacb77d214f485.png",
     "static/media/linkedin.png": "/PORTFOLIO/static/media/linkedin.a680cb8ad2b88be03d17.png",
     "index.html": "/PORTFOLIO/index.html",
-    "main.beb4dd35.css.map": "/PORTFOLIO/static/css/main.beb4dd35.css.map",
-    "main.6bd95f47.js.map": "/PORTFOLIO/static/js/main.6bd95f47.js.map"
+    "main.284a5fc6.css.map": "/PORTFOLIO/static/css/main.284a5fc6.css.map",
+    "main.7d6a7857.js.map": "/PORTFOLIO/static/js/main.7d6a7857.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb4dd35.css",
-    "static/js/main.6bd95f47.js"
+    "static/css/main.284a5fc6.css",
+    "static/js/main.7d6a7857.js"
   ]
 }
