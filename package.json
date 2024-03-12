@@ -1,9 +1,10 @@
 {
-  "homepage": "https://ashu-0511.github.io/home",
+  "homepage": "https://ashu-0511.github.io/Home.jsx",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

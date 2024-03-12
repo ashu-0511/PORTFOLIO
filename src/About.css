@@ -20,6 +20,7 @@
 .icons img {
     height: 80px;
     width: 80px;
+    cursor: pointer;
 }
 
 .firstsection2 {
@@ -31,4 +32,11 @@
 .firstsection2>div {
     width: 73%;
 
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

@@ -23,14 +23,15 @@ form input {
     width: 100%;
 }
 
-.btn {
+/* .btn {
     background-color: aliceblue;
     width: 30%;
     padding: 10px;
-}
+} */
 
 .input1 {
     font-size: 20px;
+    height: 20px;
 }
 
 .input2 {
@@ -44,6 +45,17 @@ form input {
 label {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+}
+
+.btn {
+    background-color: rgb(18, 18, 62);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50%;
 }

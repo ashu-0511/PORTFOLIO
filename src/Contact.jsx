@@ -1,71 +1,54 @@
-import React, { useState } from 'react';
+import React, { useRef } from 'react';
 import './Contact.css'
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
+  const form = useRef();
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
-  };
-
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log(formData);
-
-    alert('Form submitted successfully!');
-
-    setFormData({
-      name: '',
-      email: '',
-      message: ''
-    });
+    emailjs
+      .sendForm('service_4zjo726', 'template_knia02g', form.current, {
+        publicKey: 'Q8aPp3cPuQIOgQLk7',
+      })
+      .then(
+        () => {
+          alert('Successfully sent');
+        },
+        (error) => {
+          alert('FAILED...', error.text);
+        },
+      );
   };
 
   return (
     <div className='formsection'>
 
-      <form onSubmit={handleSubmit} className="secondsection" >
+      <form ref={form} onSubmit={sendEmail} className="secondsection" >
         <div>
-          <label htmlFor="name">Name:</label>
+          <label type="name">Name:</label>
           <input
             type="text"
             id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
+            name="user_name"
             className='input1'
           />
         </div>
         <div>
-          <label htmlFor="email">Email:</label>
+          <label type="email">Email:</label>
           <input
             type="email"
             id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
+            name="user_email"
             className='input2'
           />
         </div>
         <div>
-          <label htmlFor="message" className='label3'>Message:</label>
+          <label type="message" className='label3'>Message:</label>
           <textarea
             id="message"
             name="message"
-            value={formData.message}
-            onChange={handleChange}
-            required
             className='input3'
           />
         </div>

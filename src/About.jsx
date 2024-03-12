@@ -22,11 +22,17 @@ function About() {
                 </section>
                 <div><div className="firstsection2"><h1>Skills</h1></div>
                     <div className="icons">
-                        <img src={html} alt="none" />
-                        <img src={css} alt="none" />
-                        <img src={javascript} alt="none" />
-                        <img src={react} alt="none" />
-                        <img src={bootstrap} alt="none" />
+                        <div className="tag"><img title="HTML" src={html} alt="none" />
+                            <p>HTML</p></div>
+                        <div className="tag"><img title="CSS" src={css} alt="none" />
+                            <p>CSS</p></div>
+                        <div className="tag"><img title="Javascript" src={javascript} alt="none" />
+                            <p>Javascript</p></div>
+                        <div className="tag"><img title="ReactJS" src={react
+                        } alt="none" />
+                            <p>ReactJS</p></div>
+                        <div className="tag"><img title="Bootstrap" src={bootstrap} alt="none" />
+                            <p>Bootstrap</p></div>
                     </div>
                 </div>
 
