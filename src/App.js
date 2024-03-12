@@ -10,12 +10,12 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/PORTFOLIO' >
       <div className="App">
         <Navbar />
 
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route exact path='/PORTFOLIO' element={<Home />} />
           <Route path='/About' element={<About />} />
           <Route path='/Project' element={<Project />} />
           <Route path='/Education' element={<Education />} />
