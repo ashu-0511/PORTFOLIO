@@ -40,3 +40,43 @@
     align-items: center;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 768px) {
+    .firstsection1 {
+        display: flex;
+        justify-content: space-around;
+        margin: 0px;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .about-heading h2 {
+        font-size: 30px;
+    }
+
+    .firstsection2 {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0px;
+    }
+
+    .icons img {
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 150px;
+        margin: 10px 0px;
+    }
+
+    .tag p {
+        font-size: 10px;
+    }
+}

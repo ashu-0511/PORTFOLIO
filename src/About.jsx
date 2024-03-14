@@ -13,7 +13,7 @@ function About() {
             <div>
                 <section className="firstsection1">
                     <div className="leftsection">
-                        <div><h2>I'm Ashutosh Narula</h2>
+                        <div className="about-heading"><h2>I'm Ashutosh Narula</h2>
                             <p className="about">A Dedicated front-end developer, passionate in leveraging cutting-edge technologies to craft user friendly and engaging
                                 web solutions.</p>
                         </div>

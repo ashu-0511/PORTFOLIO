@@ -37,11 +37,14 @@ nav ul li a:hover {
 }
 
 
-/* Basic Media Query */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
         align-items: center;
+    }
+
+    .logo {
+        margin: 0px;
     }
 
     .left,
