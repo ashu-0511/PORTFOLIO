@@ -8,10 +8,10 @@ function Navbar() {
     return (
         <header>
             <nav>
-                <div className="left logo"><Link to="/">Ashutosh.N</Link> </div>
+                <div className="left logo"><Link to="/PORTFOLIO">Ashutosh.N</Link> </div>
                 <div className="right">
                     <ul>
-                        <li><Link to='/' >Home</Link> </li>
+                        <li><Link to='/PORTFOLIO' >Home</Link> </li>
                         <li><Link to="/About" >About</Link> </li>
                         <li><Link to="/Project" href="">Projects</Link> </li>
                         <li><Link to="/Education">Education</Link> </li>
